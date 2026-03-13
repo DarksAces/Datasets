@@ -457,10 +457,17 @@ async def run_topic(tema, sem, total, idx):
 
 async def main():
     console.clear()
-    console.print(Panel("[bold magenta]DATASET HUNTER PRO v3.1 TURBO[/bold magenta]\n[dim]Paralelismo de temas · .metadata organizado[/dim]", box=box.DOUBLE_EDGE))
+    console.print(Panel("[bold magenta]DATASET HUNTER PRO v3.7 GOD MODE[/bold magenta]\n[dim]Ultra-Paralelismo · 100 Hilos · Soporte CLI[/dim]", box=box.DOUBLE_EDGE))
     
     try:
-        entrada = Prompt.ask("[bold yellow]¿Temas?[/bold yellow]", default="climate change")
+        import sys
+        # Si pasas temas como argumento al ejecutar el script, úsalos directamente
+        if len(sys.argv) > 1:
+            entrada = " ".join(sys.argv[1:])
+            console.print(f"[cyan]Usando temas desde argumentos CLI...[/cyan]")
+        else:
+            entrada = Prompt.ask("[bold yellow]¿Temas?[/bold yellow]", default="climate change")
+        
         temas = [t.strip() for t in entrada.split(",") if t.strip()]
         if not temas: return
 
