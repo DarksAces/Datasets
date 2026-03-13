@@ -184,9 +184,18 @@ class DatasetDownloader:
 
 if __name__ == "__main__":
     console.clear()
-    console.print(Panel("[bold magenta]DATASET HUNTER PRO v1.0[/bold magenta]\n[dim]Búsqueda y descarga automática multitema[/dim]", expand=False))
+    console.print(Panel("[bold magenta]DATASET HUNTER PRO v1.1[/bold magenta]\n[dim]Modo de descarga múltiple activado[/dim]", expand=False))
     
-    tema = Prompt.ask("[bold yellow]¿Qué quieres buscar hoy?[/bold yellow]", default="World Cup data")
+    console.print("[cyan]Puedes introducir uno o varios temas separados por comas (ej: Bitcoin, Clima Madrid, NBA stats)[/cyan]")
+    entrada = Prompt.ask("[bold yellow]¿Qué temas quieres buscar hoy?[/bold yellow]", default="World Cup data")
     
-    hunter = DatasetDownloader(tema)
-    hunter.start()
+    # Dividir la entrada por comas y limpiar espacios
+    temas = [t.strip() for t in entrada.split(",") if t.strip()]
+    
+    with Progress(SpinnerColumn(), TextColumn("[bold cyan]Procesando lista de temas..."), transient=True) as p:
+        for tema in temas:
+            hunter = DatasetDownloader(tema)
+            hunter.start()
+            console.print("\n" + "─" * 50 + "\n")
+    
+    console.print("[bold green]🏆 ¡Todas las búsquedas completadas![/bold green]")
