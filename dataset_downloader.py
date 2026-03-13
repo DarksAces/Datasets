@@ -38,11 +38,11 @@ console = Console()
 # ─────────────────────────────────────────────
 #  CONFIGURACIÓN  (toca aquí si quieres ajustar)
 # ─────────────────────────────────────────────
-MAX_PARALLEL    = 20        # descargas simultáneas total
-MAX_TOPICS_PAR  = 3         # cuántos temas buscar/procesar a la vez
-MAX_RETRIES     = 4         # reintentos por descarga
-GITHUB_LIMIT_MB = 99        # Archivos > 99MB se marcarán como LARGE_ para .gitignore
-MAX_FILE_SIZE_MB = 2000     # Límite local (2GB) para evitar llenar el disco por error
+MAX_PARALLEL    = 100       # descargas simultáneas total (GOD MODE)
+MAX_TOPICS_PAR  = 10        # 10 temas procesándose a la vez
+MAX_RETRIES     = 5         # un reintento más por si acaso
+GITHUB_LIMIT_MB = 99        # Archivos > 99MB -> LARGE_
+MAX_FILE_SIZE_MB = 10000    # Límite local subido a 10GB 
 BACKOFF_BASE    = 1.8       # segundos de espera base entre reintentos
 REQUEST_TIMEOUT = 15        # timeout por petición HTTP
 CACHE_TTL_H     = 8         # horas que vive la caché de búsqueda
@@ -359,7 +359,18 @@ async def download_one(session, url, folder, topic, semaphore, registry, queue, 
                     async with aiofiles.open(filepath, "wb") as f:
                         async for chunk in r.content.iter_chunked(65536):
                             await f.write(chunk)
+                            progress.update(task, advance=len(chunk))
                     progress.remove_task(task)
+                    
+                    # Verificación post-descarga (por si no había Content-Length)
+                    actual_size = filepath.stat().st_size
+                    if actual_size > GITHUB_LIMIT_MB * 1024 * 1024 and not filename.startswith("LARGE_"):
+                        new_filename = f"LARGE_{filename}"
+                        new_filepath = folder / new_filename
+                        filepath.rename(new_filepath)
+                        filepath = new_filepath
+                        filename = new_filename
+                    
                     break
             except:
                 if attempt < MAX_RETRIES: await asyncio.sleep(BACKOFF_BASE**attempt)
@@ -388,7 +399,7 @@ class DatasetHunter:
         registry = HashRegistry(self.folder)
         direct_urls = set()
 
-        connector = aiohttp.TCPConnector(limit=30, ssl=False)
+        connector = aiohttp.TCPConnector(limit=150, ssl=False)
         async with aiohttp.ClientSession(connector=connector) as s:
             sources = [
                 src_zenodo(s, self.topic), src_uci(s, self.topic), src_openml(s, self.topic),
@@ -420,7 +431,7 @@ class DatasetHunter:
         sem = asyncio.Semaphore(MAX_PARALLEL // MAX_TOPICS_PAR)
         with Progress(TextColumn("[blue]{task.description}"), BarColumn(), DownloadColumn(), TransferSpeedColumn(), TimeRemainingColumn(), console=console) as progress:
             overall = progress.add_task(f"[green]Tema: {self.topic[:20]}", total=len(candidates))
-            async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(limit=10, ssl=False)) as s_dl:
+            async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(limit=100, ssl=False)) as s_dl:
                 tasks = [download_one(s_dl, u, self.folder, self.topic, sem, registry, queue, progress, overall) for u in candidates]
                 self.results = [r for r in await asyncio.gather(*tasks) if isinstance(r, dict)]
         self._report()

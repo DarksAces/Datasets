@@ -1,0 +1,24 @@
+"Regional average ozone concentrations, Canada, 2009 to 2023",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,Atlantic Canada,Atlantic Canada,Atlantic Canada,Southern Quebec,Southern Quebec,Southern Quebec,Southern Ontario,Southern Ontario,Southern Ontario,Prairies and northern Ontario,Prairies and northern Ontario,Prairies and northern Ontario,British Columbia,British Columbia,British Columbia,Northern territories,Northern territories,Northern territories
+Year,Average concentration (parts per billion),10th percentile (parts per billion),90th percentile (parts per billion),Average concentration (parts per billion),10th percentile (parts per billion),90th percentile (parts per billion),Average concentration (parts per billion),10th percentile (parts per billion),90th percentile (parts per billion),Average concentration (parts per billion),10th percentile (parts per billion),90th percentile (parts per billion),Average concentration (parts per billion),10th percentile (parts per billion),90th percentile (parts per billion),Average concentration (parts per billion),10th percentile (parts per billion),90th percentile (parts per billion)
+2009,31.7,30,35,30.4,26,34,35.5,32,39,33.7,29,40,28,24,32,28.7,27,32
+2010,33.1,31,35,33.2,29,37,37.8,33,41,33,29,37,27.5,25,32,31.8,29,34
+2011,32.9,31,36,32.3,29,35,36.6,33,40,35.6,31,40,28,24,32,31,29,33
+2012,32.9,30,35,33.6,30,37,38.1,35,41,33.5,28,39,29.2,26,34,31,28,33
+2013,33.3,29,37,33.8,31,36,36.6,33,39,34.2,29,38,26.5,23,30,28.7,25,32
+2014,33.5,29,36,33,30,36,36.6,32,40,33.2,29,37,28.3,25,32,30,28,33
+2015,33.5,30,36,33.8,31,36,36.8,33,40,33.5,28,37,27.9,24,32,30.7,29,33
+2016,32.3,30,34,33.1,31,35,37.4,34,40,31.8,28,35,26.9,24,31,31,28,34
+2017,34.5,32,37,33.5,31,36,36.5,33,39,35.2,31,38,29.2,25,34,29,20,34
+2018,34.3,31,37,34.8,32,37,36.7,34,39,35.3,31,38,28.5,25,32,31.7,30,33
+2019,33.8,30,37,33.7,31,36,35.8,33,38,33.9,31,37,27.1,23,31,32.3,31,34
+2020,33.6,31,37,33.3,32,35,35.6,33,38,33.4,30,37,27.6,22,30,29.7,27,32
+2021,34.1,32,36,33.6,31,36,36.7,33,39,35.6,32,40,30,26,33,30,26,33
+2022,33.7,31,37,33.7,32,36,36.7,33,40,35.2,32,39,27.9,24,31,29,26,31
+2023,33.8,30,37,34.6,32,37,37.1,34,40,36.6,33,41,28.9,25,33,29.3,23,34
+Annual trend,0.09,n/a,n/a,0.1,n/a,n/a,No trend ,n/a,n/a,No trend ,n/a,n/a,No trend ,n/a,n/a,No trend,n/a,n/a
+,,,,,,,,,,,,,,,,,,
+"Note: n/a = not applicable. The regional average O3 concentration indicator is based on the annual average of the daily maximum 8-hour average concentrations recorded at 18 monitoring stations in the Atlantic Canada region, 39 in the southern Quebec region, 40 in the southern Ontario region, 34 in the Prairies and northern Ontario region, 34 in British Columbia and 4 in the northern territories region. No comparison with CAAQS is shown as there is no comparable O3 standard. A statistically significant trend is reported when the Mann-Kendall test indicates the presence of a trend at the 95 percent confidence level. For more information, consult the Methods section (www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#Methods).",,,,,,,,,,,,,,,,,,
+Source: Environment and Climate Change Canada (2025) National Air Pollution Surveillance (NAPS) Program - Open Government Portal (https://open.canada.ca/data/en/dataset/1b36a356-defd-4813-acea-47bc3abd859b) and the Canadian Air and Precipitation Monitoring Network (www.canada.ca/en/environment-climate-change/services/air-pollution/monitoring-networks-data/canadian-air-precipitation.html).,,,,,,,,,,,,,,,,,,
+Available on the Environmental indicators website (www.canada.ca/environmental-indicators).,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,110 @@
+,,,
+Table 18a,"Compensation of overtime, 2015",,
+Size of the company,Type of compensation,Number of industrial companies ,Quality indicator
+,,,
+,,,
+,,COUNT,CV
+All sizes,No overtime worked in 2015,"14,007",B
+,Overtime worked in 2015,"3,655",B
+,Overtime compensated by pay or time off,"3,651",B
+,Overtime compensated by pay only,"2,340",C
+,Overtime compensated by time off only,236,B
+1 to 5 employees,No overtime worked in 2015,"10,900",C
+,Overtime worked in 2015,716,F
+,Overtime compensated by pay or time off,713,F
+,Overtime compensated by pay only,601,F
+,Overtime compensated by time off only,57,D
+6 to 19 employees,No overtime worked in 2015,"2,378",C
+,Overtime worked in 2015,"1,056",C
+,Overtime compensated by pay or time off,"1,056",C
+,Overtime compensated by pay only,767,D
+,Overtime compensated by time off only,82,B
+20 to 99 employees,No overtime worked in 2015,634,B
+,Overtime worked in 2015,"1,220",A
+,Overtime compensated by pay or time off,"1,218",A
+,Overtime compensated by pay only,732,A
+,Overtime compensated by time off only,75,B
+100 employees and more,No overtime worked in 2015,96,B
+,Overtime worked in 2015,664,A
+,Overtime compensated by pay or time off,664,A
+,Overtime compensated by pay only,241,A
+,Overtime compensated by time off only,22,B
+,,,
+,,,
+Table 18b,"Compensation of overtime, 2015",,
+Industry,Type of compensation,Number of industrial companies,Quality indicator
+,,,
+,,,
+,,COUNT,CV
+All industries,No overtime worked in 2015,"14,007",B
+,Overtime worked in 2015,"3,655",B
+,Overtime compensated by pay or time off,"3,651",B
+,Overtime compensated by pay only,"2,340",C
+,Overtime compensated by time off only,236,B
+Air transportation,No overtime worked in 2015,476,A
+,Overtime worked in 2015,516,A
+,Overtime compensated by pay or time off,516,A
+,Overtime compensated by pay only,179,B
+,Overtime compensated by time off only,50,C
+Rail transportation,No overtime worked in 2015,5,E
+,Overtime worked in 2015,15,C
+,Overtime compensated by pay or time off,15,C
+,Overtime compensated by pay only,9,D
+,Overtime compensated by time off only,0,
+Road transportion,No overtime worked in 2015,"12,033",B
+,Overtime worked in 2015,"1,855",D
+,Overtime compensated by pay or time off,"1,854",D
+,Overtime compensated by pay only,"1,566",E
+,Overtime compensated by time off only,19,C
+Maritime transportation,No overtime worked in 2015,189,B
+,Overtime worked in 2015,234,A
+,Overtime compensated by pay or time off,234,A
+,Overtime compensated by pay only,131,B
+,Overtime compensated by time off only,21,C
+Postal and pipelines,No overtime worked in 2015,273,A
+,Overtime worked in 2015,108,B
+,Overtime compensated by pay or time off,108,B
+,Overtime compensated by pay only,80,B
+,Overtime compensated by time off only,X,X
+Banks,No overtime worked in 2015,27,B
+,Overtime worked in 2015,73,A
+,Overtime compensated by pay or time off,73,A
+,Overtime compensated by pay only,22,B
+,Overtime compensated by time off only,6,D
+"Feed, flour, seed and grain",No overtime worked in 2015,160,F
+,Overtime worked in 2015,239,D
+,Overtime compensated by pay or time off,239,D
+,Overtime compensated by pay only,179,E
+,Overtime compensated by time off only,X,X
+Telecommunications and broadcasting,No overtime worked in 2015,471,A
+,Overtime worked in 2015,464,A
+,Overtime compensated by pay or time off,462,A
+,Overtime compensated by pay only,127,B
+,Overtime compensated by time off only,120,B
+Other,No overtime worked in 2015,372,E
+,Overtime worked in 2015,150,C
+,Overtime compensated by pay or time off,150,C
+,Overtime compensated by pay only,46,F
+,Overtime compensated by time off only,X,X
+,,,
+,,,
+"Note:
+",,,
+Totals and sub-totals have been rounded to the nearest hundredth.,,,
+Components may not add up to the totals as a result of the rounding.,,,
+,,,
+Reliability Indicators,,,
+Coefficient of variation (CV),,,Standard error (SE)
+,,,
+A = 0.00% - 5.00%   excellent,,,A = 0.00% - 2.50%   excellent
+B = 5.01% - 10.00%    very Good,,,B = 2.51% - 5.00%    very Good
+C = 10.01% - 15.00%  good,,,C = 5.01% - 7.50%  good
+D = 15.01% - 20.00%  acceptable,,,D = 7.51% - 10.00%  acceptable
+E = 20.01 - 25.00%  use with caution,,,E = 10.01% - 12.50%  use with caution
+F = Greater than 25.00%   too unreliable to be published,,,F = 12.51% or more  too unreliable to be published
+,,,
+Symbols:                      ,,,
+ … not applicable,,,
+x  suppressed to meet the confidentiality requirements of the Statistics Act ,,,
+,,,
+Source:  ,"Federal Jurisdiction Workplace Survey, 2015",,

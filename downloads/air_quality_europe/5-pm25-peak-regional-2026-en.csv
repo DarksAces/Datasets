@@ -1,0 +1,25 @@
+"Regional average peak fine particulate matter concentrations, Canada, 2009 to 2023",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,Atlantic Canada ,Atlantic Canada ,Atlantic Canada ,Southern Quebec ,Southern Quebec ,Southern Quebec ,Southern Ontario,Southern Ontario,Southern Ontario,Prairies and northern Ontario,Prairies and northern Ontario,Prairies and northern Ontario,British Columbia,British Columbia,British Columbia,Northern territories,Northern territories,Northern territories
+Year,Average peak (98th percentile) 24-hour concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average peak (98th percentile) 24-hour concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average peak (98th percentile) 24-hour concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average peak (98th percentile) 24-hour concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average peak (98th percentile) 24-hour concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average peak (98th percentile) 24-hour concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre)
+2009,16.1,10.6,18.7,22.3,11.5,33,14.8,11.3,17.5,14.2,10.3,17.1,16.8,12,24.7,16.7,11.2,22.2
+2010,16.6,11.2,22,24.8,17.6,32,20.9,13.6,25,24.7,14.6,37.5,23.4,10.9,46.8,10.9,6.3,15.4
+2011,15.9,11,18.8,20.5,12.3,26.8,18,13.8,22.8,22.3,11.2,49.3,13.6,8,22.9,16.7,7.5,25.8
+2012,13.5,9.5,17.9,22.1,12,29.8,17,13.3,20.6,18.7,12.1,24.8,15.7,10.2,29.4,14,8.9,17.8
+2013,17.4,14.9,19.9,20.8,13.9,26.4,19.8,15,23.5,18,12.7,23.9,17.7,10.3,32.4,20.6,10.1,31.9
+2014,14.4,12.2,16.8,18.2,12.5,23.6,20.8,14,25.5,24.3,15.3,33.7,20.9,13.3,31.6,70.4,9.8,130.9
+2015,14.6,11.1,19.9,19.1,13,24.4,20.1,14.3,24.4,30.6,17.4,46.2,20.7,13.7,30,21.6,15,31.6
+2016,11.6,9.4,14,15.6,9.9,21.2,16.1,12.3,19.3,30.8,11.4,33.1,14.6,9.6,23.5,14,6.8,19.7
+2017,12.4,10.6,14.7,16.7,10.5,22.7,16.2,12.1,19.4,25.8,14.9,35,47.7,22.4,74,17.7,11.4,21.8
+2018,11,8.9,13.4,18.2,12.1,23.5,18.5,14,21.2,49.1,27.7,64.2,47.9,25.1,82.3,11.4,9.4,12.8
+2019,10.8,9.3,12.3,16.4,12,20.4,17.2,12.5,20.8,20.6,13.8,27.7,16.6,10,23.5,18.9,10.3,28.7
+2020,11.3,9.3,14.2,18.4,11.3,23.7,15.7,12.2,18.9,15.2,10.8,19.3,31.1,17.1,48.9,14.9,10.5,22.3
+2021,11.9,10,14,20.4,17.1,24.5,18.7,14.9,22.2,33,23.9,41,28.5,10.5,92.5,19.2,11.8,27.7
+2022,11.2,8.7,13.9,16.1,10.1,20.2,16.4,12.6,21.1,22.4,15.2,28.5,22.7,16.4,29.5,25.2,19.4,29.7
+2023,14,12.3,15.5,31.4,22.4,52.7,34,29.6,39.6,103.4,59.8,165.6,28.3,12.7,66.3,91.4,19.2,211.7
+2020 standard,27,n/a,n/a,27,n/a,n/a,27,n/a,n/a,27,n/a,n/a,27,n/a,n/a,27,n/a,n/a
+Annual trend,-0.4,n/a,n/a,No trend ,n/a,n/a,No trend,n/a,n/a,No trend ,n/a,n/a,No trend ,n/a,n/a,No trend ,n/a,n/a
+,,,,,,,,,,,,,,,,,,
+"Note: n/a = not applicable. The regional average peak PM2.5 concentration indicator is based on the annual 98th percentile of the daily 24-hour average concentrations recorded at 16 monitoring stations in the Atlantic Canada region, 35 in the southern Quebec region, 37 in the southern Ontario region, 35 in the Prairies and northern Ontario region, 35 in British Columbia and 3 in the northern territories region. The comparison to the Canadian Ambient Air Quality Standard is provided for illustrative purposes only. A statistically significant trend is reported when the Mann-Kendall test indicates the presence of a trend at the 95% confidence level. For more information, consult the Methods section (www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#Methods).",,,,,,,,,,,,,,,,,,
+Source: Environment and Climate Change Canada (2025) National Air Pollution Surveillance (NAPS) Program - Open Government Portal (https://open.canada.ca/data/en/dataset/1b36a356-defd-4813-acea-47bc3abd859b).,,,,,,,,,,,,,,,,,,
+Available on the Environmental indicators website (www.canada.ca/environmental-indicators).,,,,,,,,,,,,,,,,,,

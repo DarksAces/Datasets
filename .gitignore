@@ -10,5 +10,6 @@ __pycache__/
 
 # --- Estrategia Híbrida para Datasets ---
 # Permitimos la carpeta downloads para compartir datasets pequeños
-# Pero ignoramos cualquier archivo que el script haya marcado como "LARGE_" (>99MB)
+# Pero ignoramos cualquier archivo que contenga "LARGE_" (archivos >99MB)
 **/LARGE_*
+**/*LARGE_*

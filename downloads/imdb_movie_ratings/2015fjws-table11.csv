@@ -1,0 +1,138 @@
+,,,,,
+Table 11a,"Weekly scheduled hours of architects, dentists, engineers and lawyers, December 2015",,,,
+Size of the company,Weekly scheduled hours,"Number of industrial companies with architects, dentists, engineers or lawyers",Quality indicator,"Number of architects, dentists, engineers and lawyers",Quality indicator
+,,,,,
+,,COUNT ,CV,SUM,CV
+All sizes,All schedules,"1,108",F,"14,945",C
+,No scheduled hours,23,C,223,E
+,Less than 15 hours,X,X,X,X
+,15-29 hours,X,X,X,X
+,30-34 hours,24,C,91,E
+,35-40 hours,630,F,"8,715",B
+,Over 40 hours,313,F,X,X
+1 to 5 employees,All schedules,660,F,684,F
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,0,,0,
+,15-29 hours,X,X,X,X
+,30-34 hours,0,,0,
+,35-40 hours,296,F,311,F
+,Over 40 hours,206,F,X,X
+6 to 19 employees,All schedules,73,D,171,C
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,X,X,X,X
+,15-29 hours,X,X,X,X
+,30-34 hours,X,X,X,X
+,35-40 hours,39,D,100,D
+,Over 40 hours,30,F,45,E
+20 to 99 employees,All schedules,141,B,763,C
+,No scheduled hours,0,,0,
+,Less than 15 hours,X,X,X,X
+,15-29 hours,X,X,X,X
+,30-34 hours,X,X,X,X
+,35-40 hours,99,B,465,C
+,Over 40 hours,36,B,282,E
+100 employees and more,All schedules,233,A,"13,326",C
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,X,X,X,X
+,15-29 hours,13,C,26,D
+,30-34 hours,14,C,X,X
+,35-40 hours,196,A,"7,839",B
+,Over 40 hours,40,B,X,X
+,,,,,
+,,,,,
+Table 11b,"Weekly scheduled hours of architects, dentists, engineers and lawyers, December 2015",,,,
+Industry,Weekly scheduled hours,"Number of industrial companies with architects, dentists, engineers or lawyers",Quality indicator,"Number of architects, dentists, engineers and lawyers",Quality indicator
+,,,,,
+,,COUNT,CV,SUM,CV
+All industries,All schedules,"1,108",F,"14,945",C
+,No scheduled hours,23,C,223,E
+,Less than 15 hours,X,X,X,X
+,15-29 hours,X,X,X,X
+,30-34 hours,24,C,91,E
+,35-40 hours,630,F,"8,715",B
+,Over 40 hours,313,F,X,X
+Air transportation,All schedules,130,B,"1,478",C
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,5,E,5,E
+,15-29 hours,4,F,X,X
+,30-34 hours,X,X,X,X
+,35-40 hours,91,B,"1,122",C
+,Over 40 hours,44,C,324,E
+Rail transportation,All schedules,7,D,X,X
+,No scheduled hours,0,,0,
+,Less than 15 hours,0,,0,
+,15-29 hours,0,,0,
+,30-34 hours,0,,0,
+,35-40 hours,7,D,X,X
+,Over 40 hours,0,,0,
+Road transportion,All schedules,598,F,X,X
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,X,X,X,X
+,15-29 hours,X,X,X,X
+,30-34 hours,0,,0,
+,35-40 hours,273,F,X,X
+,Over 40 hours,162,F,X,X
+Maritime transportation,All schedules,57,B,500,E
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,X,X,X,X
+,15-29 hours,X,X,X,X
+,30-34 hours,X,X,X,X
+,35-40 hours,40,B,X,X
+,Over 40 hours,24,C,X,X
+Postal and pipelines,All schedules,21,C,"5,554",F
+,No scheduled hours,5,E,X,X
+,Less than 15 hours,0,,0,
+,15-29 hours,X,X,X,X
+,30-34 hours,X,X,56,F
+,35-40 hours,10,D,553,D
+,Over 40 hours,11,C,X,X
+Banks,All schedules,36,A,625,A
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,0,,0,
+,15-29 hours,3,A,X,X
+,30-34 hours,3,A,15,A
+,35-40 hours,33,A,587,A
+,Over 40 hours,3,C,7,B
+"Feed, flour, seed and grain",All schedules,21,C,58,D
+,No scheduled hours,0,,0,
+,Less than 15 hours,0,,0,
+,15-29 hours,X,X,X,X
+,30-34 hours,0,,0,
+,35-40 hours,17,C,44,E
+,Over 40 hours,X,X,X,X
+Telecommunications and broadcasting,All schedules,115,B,"3,173",D
+,No scheduled hours,X,X,46,F
+,Less than 15 hours,0,,0,
+,15-29 hours,5,D,9,F
+,30-34 hours,5,D,5,D
+,35-40 hours,89,B,"3,079",D
+,Over 40 hours,19,D,33,D
+Other,All schedules,122,F,"2,435",D
+,No scheduled hours,X,X,X,X
+,Less than 15 hours,0,,0,
+,15-29 hours,X,X,X,X
+,30-34 hours,6,F,X,X
+,35-40 hours,69,C,"2,319",D
+,Over 40 hours,X,X,X,X
+,,,,,
+,,,,,
+"Note:
+",,,,,
+Totals and sub-totals have been rounded to the nearest hundredth.,,,,,
+Components may not add up to the totals as a result of the rounding.,,,,,
+,,,,,
+Reliability Indicators,,,,,
+Coefficient of variation (CV),,,Standard error (SE),,
+,,,,,
+A = 0.00% - 5.00%   excellent,,,A = 0.00% - 2.50%   excellent,,
+B = 5.01% - 10.00%    very Good,,,B = 2.51% - 5.00%    very Good,,
+C = 10.01% - 15.00%  good,,,C = 5.01% - 7.50%  good,,
+D = 15.01% - 20.00%  acceptable,,,D = 7.51% - 10.00%  acceptable,,
+E = 20.01 - 25.00%  use with caution,,,E = 10.01% - 12.50%  use with caution,,
+F = Greater than 25.00%   too unreliable to be published,,,F = 12.51% or more  too unreliable to be published,,
+,,,,,
+Symbols:                      ,,,,,
+ … not applicable,,,,,
+x  suppressed to meet the confidentiality requirements of the Statistics Act ,,,,,
+,,,,,
+Source:  ,"Federal Jurisdiction Workplace Survey, 2015",,,,

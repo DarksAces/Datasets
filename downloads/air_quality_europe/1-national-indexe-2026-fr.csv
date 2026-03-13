@@ -1,0 +1,22 @@
+"Changements relatifs des concentrations de polluants atmosphériques, Canada, 2009 à 2023 ",,,,,,,,,
+,,,,,,,,,
+Année,"Concentration moyenne de PM2,5 (changement en pourcentage relatif à l'année 2009) ","Concentration de pointe de PM2,5 (98e centile) sur 24h (changement en pourcentage relatif à l'année 2009) ",Concentration moyenne sur 8h d'O3 (changement en pourcentage relatif à l'année 2009) ,Concentration de pointe d'O3 (4e plus élevée) sur 8h (changement en pourcentage relatif à l'année 2009) ,Concentration moyenne de NO2 (changement en pourcentage relatif à l'année 2009) ,Concentration de pointe de NO2 (98e centile) sur 1h (changement en pourcentage relatif à l'année 2009),Concentration moyenne de SO2 (changement en pourcentage relatif à l'année 2009) ,Concentration de pointe de SO2 (99e centile) sur 1h (changement en pourcentage relatif à l'année 2009),Concentration moyenne de COV (changement en pourcentage relatif à l'année 2009) 
+2009,0,0,0,0,0,0,0,0,0
+2010,13.1,33.4,3.8,2.9,-7.4,-8.1,0.3,-10.9,-11.9
+2011,6.7,7.7,4,-0.7,-9,-12.7,-21.1,-13.4,-12.3
+2012,6.7,5.6,5.5,4.7,-16.2,-17.5,-15.7,-18,-28.5
+2013,18.7,12.5,3.3,-1.8,-13.1,-17.5,-17.6,-21.3,-27.7
+2014,21.7,24.7,3.3,-5.7,-10,-18.3,-27.5,-26.1,-26.4
+2015,22.6,28.5,3.9,1.5,-13.4,-21.7,-32.3,-35.1,-26.2
+2016,5.2,8.7,1.7,-2,-18.8,-26,-30.7,-39.9,-38.6
+2017,16.6,49.6,5.5,-1,-16.8,-24.2,-32.3,-42.7,-30
+2018,26.5,82.4,6.3,3,-14.6,-24.5,-34.3,-46.6,-39.3
+2019,5,1.1,3.1,-6.8,-13.6,-26.1,-40.6,-46,-37.4
+2020,2.2,12.2,2.2,-6,-22.5,-35.7,-39.2,-48.4,non-disponible
+2021,13.6,39.9,6.4,0.6,-22.9,-34.2,-39.2,-49.7,-22.1
+2022,7.1,10.5,4.6,-5.8,-20.3,-32.9,-40.1,-49,-33.7
+2023,62,166.9,6.9,2.8,-24.5,-34.5,-38.1,-51.2,-40.7
+,,,,,,,,,
+"Remarque : Les données de COV de 2020 ne sont pas disponibles. Pour plus de renseignements, consultez la section sur les Sources de données et méthodes (https://www.canada.ca/fr/environnement-changement-climatique/services/indicateurs-environnementaux/qualite-air.html#DSM).",,,,,,,,,
+Source : Environnement et Changement climatique Canada (2025) Programme de surveillance national de la pollution atmosphérique (SNPA) – Portail du Gouvernement Ouvert  (https://ouvert.canada.ca/data/fr/dataset/1b36a356-defd-4813-acea-47bc3abd859b) et Réseau canadien d’échantillonnage des précipitations et de l’air (https://www.canada.ca/fr/environnement-changement-climatique/services/pollution-atmospherique/reseau-surveillance-donnees/canadien-echantillonnage-precipitations-air.html). ,,,,,,,,,
+Disponible sur le site Web des Indicateurs environnementaux (www.canada.ca/indicateurs-environnementaux).,,,,,,,,,

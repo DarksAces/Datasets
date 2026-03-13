@@ -1,0 +1,25 @@
+"National average volatile organic compound concentrations, Canada, 2009 to 2023",,,
+,,,
+,,,
+Year,Average concentration (parts per billion Carbon),10th percentile (parts per billion Carbon),90th percentile (parts per billion Carbon)
+2009,104.6,28.6,310.1
+2010,92.2,25.1,231
+2011,91.8,31.6,201.3
+2012,74.8,23.5,266.3
+2013,75.7,23.7,258
+2014,77,23.1,241
+2015,77.2,26.3,222.7
+2016,64.3,20.9,176.1
+2017,73.3,25.8,249.3
+2018,63.5,21.3,102.1
+2019,65.5,20,231.4
+2020,no data,no data,no data
+2021,81.5,40,207.8
+2022,69.3,30.9,201.6
+2023,62,22.3,116.4
+Annual trend ,-1.99,n/a,n/a
+,,,
+,,,
+"Note: n/a = not applicable. The national average VOC concentration indicator is based on the annual average of the daily time-integrated concentrations (24-hour for urban stations and 4-hour for rural stations) recorded at 29 monitoring stations across Canada. VOC sampling in 2020 was limited and no station met the data completeness criteria for that year. During 2011, 2021 and 2022, VOC sampling was paused at several stations. For these years, the national average concentration is likely biased high compared to other years, as described in the caveats and limitations section (https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#DSM). No comparison with CAAQS is shown as there is no comparable VOC standard. A statistically significant trend is reported when the Mann-Kendall test indicates the presence of a trend at the 95% confidence level. For more information, consult the Data sources and methods section (www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#DSM). ",,,
+Source: Environment and Climate Change Canada (2025) National Air Pollution Surveillance (NAPS) Program - Open Government Portal (https://open.canada.ca/data/en/dataset/1b36a356-defd-4813-acea-47bc3abd859b). ,,,
+Available on the Environmental indicators website (www.canada.ca/environmental-indicators).,,,
