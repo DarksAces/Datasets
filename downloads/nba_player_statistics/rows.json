@@ -1,0 +1,793 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "w8ea-nba4",
+      "name" : "AFF - P12a - Air Carrier Fuel Efficiency by Year",
+      "assetType" : "dataset",
+      "attribution" : "Bureau of Transportation Statistics",
+      "averageRating" : 0,
+      "category" : "Aviation",
+      "createdAt" : 1733767134,
+      "description" : "Air Carrier Fuel Efficiency by Year",
+      "diciBackend" : false,
+      "displayType" : "table",
+      "downloadCount" : 4942,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 41001938,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1733767309,
+      "publicationGroup" : 19710995,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1752167520,
+      "rowsUpdatedBy" : "y96g-mvgi",
+      "tableId" : 19710995,
+      "totalTimesRated" : 0,
+      "viewCount" : 45701,
+      "viewLastModified" : 1772547064,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1734020813,
+        "reviewedAutomatically" : false,
+        "state" : "approved",
+        "submissionId" : 6652347,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1734010503,
+        "targetAudience" : "public",
+        "workflowId" : 2520,
+        "reviewer" : {
+          "id" : "y96g-mvgi",
+          "displayName" : "Robinson, Ramond (OST)"
+        },
+        "submissionDetails" : {
+          "permissionType" : "read"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1734020813,
+          "failureCount" : 0,
+          "startedAt" : 1734020813,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "f8pz-h9c6",
+          "displayName" : "Nicolas Hinze"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 602678873,
+        "name" : "Year",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 155821194,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "2025M1-3",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2013",
+            "count" : "1"
+          }, {
+            "item" : "2025M1-3",
+            "count" : "1"
+          }, {
+            "item" : "1994",
+            "count" : "1"
+          }, {
+            "item" : "2024",
+            "count" : "1"
+          }, {
+            "item" : "2011",
+            "count" : "1"
+          }, {
+            "item" : "2008",
+            "count" : "1"
+          }, {
+            "item" : "2002",
+            "count" : "1"
+          }, {
+            "item" : "2019",
+            "count" : "1"
+          }, {
+            "item" : "2012",
+            "count" : "1"
+          }, {
+            "item" : "2023",
+            "count" : "1"
+          }, {
+            "item" : "1996",
+            "count" : "1"
+          }, {
+            "item" : "2022",
+            "count" : "1"
+          }, {
+            "item" : "2004",
+            "count" : "1"
+          }, {
+            "item" : "2017",
+            "count" : "1"
+          }, {
+            "item" : "2018",
+            "count" : "1"
+          }, {
+            "item" : "2009",
+            "count" : "1"
+          }, {
+            "item" : "2003",
+            "count" : "1"
+          }, {
+            "item" : "1992",
+            "count" : "1"
+          }, {
+            "item" : "2020",
+            "count" : "1"
+          }, {
+            "item" : "1993",
+            "count" : "1"
+          } ],
+          "smallest" : "1990",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 602678871,
+        "name" : "TOTAL_GALLONS",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "total_gallons",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 155821192,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "20336209034",
+          "null" : "0",
+          "top" : [ {
+            "item" : "20326158469",
+            "count" : "1"
+          }, {
+            "item" : "17533465241",
+            "count" : "1"
+          }, {
+            "item" : "17944111783",
+            "count" : "1"
+          }, {
+            "item" : "17933373272",
+            "count" : "1"
+          }, {
+            "item" : "19704071404",
+            "count" : "1"
+          }, {
+            "item" : "18248114859",
+            "count" : "1"
+          }, {
+            "item" : "16990973649",
+            "count" : "1"
+          }, {
+            "item" : "20336209034",
+            "count" : "1"
+          }, {
+            "item" : "16774137108",
+            "count" : "1"
+          }, {
+            "item" : "17306221289",
+            "count" : "1"
+          }, {
+            "item" : "18028882571",
+            "count" : "1"
+          }, {
+            "item" : "18574420148",
+            "count" : "1"
+          }, {
+            "item" : "16092712891",
+            "count" : "1"
+          }, {
+            "item" : "19746878161",
+            "count" : "1"
+          }, {
+            "item" : "15181390234",
+            "count" : "1"
+          }, {
+            "item" : "15118867931",
+            "count" : "1"
+          }, {
+            "item" : "4758719808",
+            "count" : "1"
+          }, {
+            "item" : "19913728641",
+            "count" : "1"
+          }, {
+            "item" : "16057567749",
+            "count" : "1"
+          }, {
+            "item" : "15639136043",
+            "count" : "1"
+          } ],
+          "smallest" : "4758719808",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 602678872,
+        "name" : "TOTAL_COST",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "total_cost",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 155821193,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "60419558279",
+          "null" : "0",
+          "top" : [ {
+            "item" : "9378125746",
+            "count" : "1"
+          }, {
+            "item" : "16397723660",
+            "count" : "1"
+          }, {
+            "item" : "9679169026",
+            "count" : "1"
+          }, {
+            "item" : "11614653509",
+            "count" : "1"
+          }, {
+            "item" : "12839692287",
+            "count" : "1"
+          }, {
+            "item" : "10502262316",
+            "count" : "1"
+          }, {
+            "item" : "32165282188",
+            "count" : "1"
+          }, {
+            "item" : "39270388228",
+            "count" : "1"
+          }, {
+            "item" : "38479270333",
+            "count" : "1"
+          }, {
+            "item" : "57706345577",
+            "count" : "1"
+          }, {
+            "item" : "22688221563",
+            "count" : "1"
+          }, {
+            "item" : "14943581708",
+            "count" : "1"
+          }, {
+            "item" : "12564091199",
+            "count" : "1"
+          }, {
+            "item" : "40453288603",
+            "count" : "1"
+          }, {
+            "item" : "33106360924",
+            "count" : "1"
+          }, {
+            "item" : "52062045444",
+            "count" : "1"
+          }, {
+            "item" : "16454314543",
+            "count" : "1"
+          }, {
+            "item" : "11840180569",
+            "count" : "1"
+          }, {
+            "item" : "48017581706",
+            "count" : "1"
+          }, {
+            "item" : "30630171098",
+            "count" : "1"
+          } ],
+          "smallest" : "9283230376",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 602678874,
+        "name" : "Flight_Miles_sm",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "flight_miles_sm",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 155821195,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "8141052808",
+          "null" : "0",
+          "top" : [ {
+            "item" : "6235744086",
+            "count" : "1"
+          }, {
+            "item" : "7597396387",
+            "count" : "1"
+          }, {
+            "item" : "6262543306",
+            "count" : "1"
+          }, {
+            "item" : "7667220903",
+            "count" : "1"
+          }, {
+            "item" : "6846059341",
+            "count" : "1"
+          }, {
+            "item" : "7380574628",
+            "count" : "1"
+          }, {
+            "item" : "7669067786",
+            "count" : "1"
+          }, {
+            "item" : "5570828758",
+            "count" : "1"
+          }, {
+            "item" : "7193703367",
+            "count" : "1"
+          }, {
+            "item" : "7451421581",
+            "count" : "1"
+          }, {
+            "item" : "4454637318",
+            "count" : "1"
+          }, {
+            "item" : "4208149233",
+            "count" : "1"
+          }, {
+            "item" : "7127726772",
+            "count" : "1"
+          }, {
+            "item" : "4578077097",
+            "count" : "1"
+          }, {
+            "item" : "7394577102",
+            "count" : "1"
+          }, {
+            "item" : "4628220257",
+            "count" : "1"
+          }, {
+            "item" : "6665478979",
+            "count" : "1"
+          }, {
+            "item" : "6818974324",
+            "count" : "1"
+          }, {
+            "item" : "6697161430",
+            "count" : "1"
+          }, {
+            "item" : "6216558934",
+            "count" : "1"
+          } ],
+          "smallest" : "1940706618",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 602678875,
+        "name" : "Flight Miles (flight-sm/gal)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "flight_miles_flight_sm_gal",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 155821196,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "0.4124478178167109",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0.4034706063755053",
+            "count" : "1"
+          }, {
+            "item" : "0.4078211570131595",
+            "count" : "1"
+          }, {
+            "item" : "0.4055793895072687",
+            "count" : "1"
+          }, {
+            "item" : "0.285803016837571",
+            "count" : "1"
+          }, {
+            "item" : "0.3886327434290238",
+            "count" : "1"
+          }, {
+            "item" : "0.3007950597847414",
+            "count" : "1"
+          }, {
+            "item" : "0.3891186113669648",
+            "count" : "1"
+          }, {
+            "item" : "0.2771912959312182",
+            "count" : "1"
+          }, {
+            "item" : "0.3961118245543129",
+            "count" : "1"
+          }, {
+            "item" : "0.4003230294490491",
+            "count" : "1"
+          }, {
+            "item" : "0.4124478178167109",
+            "count" : "1"
+          }, {
+            "item" : "0.3980884455315996",
+            "count" : "1"
+          }, {
+            "item" : "0.3939324753471",
+            "count" : "1"
+          }, {
+            "item" : "0.3988505649791298",
+            "count" : "1"
+          }, {
+            "item" : "0.3795666707131197",
+            "count" : "1"
+          }, {
+            "item" : "0.3081026508551127",
+            "count" : "1"
+          }, {
+            "item" : "0.3245595591143341",
+            "count" : "1"
+          }, {
+            "item" : "0.4065171448221836",
+            "count" : "1"
+          }, {
+            "item" : "0.4011349821303156",
+            "count" : "1"
+          }, {
+            "item" : "0.4028780061389121",
+            "count" : "1"
+          } ],
+          "smallest" : "0.2673867034815789",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 602678876,
+        "name" : "Payload_Miles_sm",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "payload_miles_sm",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 155821197,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "499172287458743",
+          "null" : "0",
+          "top" : [ {
+            "item" : "226139381958879",
+            "count" : "1"
+          }, {
+            "item" : "349630452953472",
+            "count" : "1"
+          }, {
+            "item" : "363046261775747",
+            "count" : "1"
+          }, {
+            "item" : "256132373602945",
+            "count" : "1"
+          }, {
+            "item" : "389540070677796",
+            "count" : "1"
+          }, {
+            "item" : "300251184992154",
+            "count" : "1"
+          }, {
+            "item" : "199823127963099",
+            "count" : "1"
+          }, {
+            "item" : "372622669878823",
+            "count" : "1"
+          }, {
+            "item" : "339847922864403",
+            "count" : "1"
+          }, {
+            "item" : "302802915056021",
+            "count" : "1"
+          }, {
+            "item" : "115689906635286",
+            "count" : "1"
+          }, {
+            "item" : "348085812871696",
+            "count" : "1"
+          }, {
+            "item" : "235711081997358",
+            "count" : "1"
+          }, {
+            "item" : "341244452122378",
+            "count" : "1"
+          }, {
+            "item" : "342425242066537",
+            "count" : "1"
+          }, {
+            "item" : "370633549961765",
+            "count" : "1"
+          }, {
+            "item" : "361069898679062",
+            "count" : "1"
+          }, {
+            "item" : "256692487805899",
+            "count" : "1"
+          }, {
+            "item" : "352746431741941",
+            "count" : "1"
+          }, {
+            "item" : "293389732349512",
+            "count" : "1"
+          } ],
+          "smallest" : "115689906635286",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 602678877,
+        "name" : "Payload Miles (payload-sm/gal)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "payload_miles_payload_sm",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 155821198,
+        "cachedContents" : {
+          "non_null" : "36",
+          "largest" : "28023",
+          "null" : "0",
+          "top" : [ {
+            "item" : "21491",
+            "count" : "1"
+          }, {
+            "item" : "28023",
+            "count" : "1"
+          }, {
+            "item" : "13620",
+            "count" : "1"
+          }, {
+            "item" : "22598",
+            "count" : "1"
+          }, {
+            "item" : "25328",
+            "count" : "1"
+          }, {
+            "item" : "22784",
+            "count" : "1"
+          }, {
+            "item" : "13994",
+            "count" : "1"
+          }, {
+            "item" : "22050",
+            "count" : "1"
+          }, {
+            "item" : "20288",
+            "count" : "1"
+          }, {
+            "item" : "13778",
+            "count" : "1"
+          }, {
+            "item" : "23356",
+            "count" : "1"
+          }, {
+            "item" : "19853",
+            "count" : "1"
+          }, {
+            "item" : "24311",
+            "count" : "1"
+          }, {
+            "item" : "18898",
+            "count" : "1"
+          }, {
+            "item" : "18325",
+            "count" : "1"
+          }, {
+            "item" : "18231",
+            "count" : "1"
+          }, {
+            "item" : "17810",
+            "count" : "1"
+          }, {
+            "item" : "24602",
+            "count" : "1"
+          }, {
+            "item" : "13412",
+            "count" : "1"
+          }, {
+            "item" : "17679",
+            "count" : "1"
+          } ],
+          "smallest" : "12417",
+          "count" : "36",
+          "cardinality" : "36"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Common Core" : {
+            "Contact Email" : "bts@dot.gov",
+            "Contact Name" : "Office of Transportation Analysis",
+            "License" : "http://www.usa.gov/publicdomain/label/1.0/",
+            "Program Code" : "021:053",
+            "Publisher" : "Bureau of Transportation Statistics",
+            "Bureau Code" : "021:00",
+            "Public Access Level" : "public"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "y96g-mvgi",
+        "displayName" : "Robinson, Ramond (OST)",
+        "screenName" : "Robinson, Ramond (OST)",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "y96g-mvgi",
+        "displayName" : "Robinson, Ramond (OST)",
+        "screenName" : "Robinson, Ramond (OST)",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "air carriers", "fuel" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-ehu2-dsug_mxiz", "00000000-0000-0000-1DBA-6809D145FDF8", 0, 1752167520, null, 1752167520, null, "{ }", "1990", "16092712891", "12564091199", "4302977450", "0.2673867034815789", "199823127963099", "12417" ]
+, [ "row-zgkj.u36a~zqa8", "00000000-0000-0000-2685-6D14AE9FBD32", 0, 1752167520, null, 1752167520, null, "{ }", "1991", "15181390234", "10501394306", "4208149233", "0.2771912959312182", "195812483328748", "12898" ]
+, [ "row-p2km~dsh2~czq5", "00000000-0000-0000-5777-E1E10488AA6B", 0, 1752167520, null, 1752167520, null, "{ }", "1992", "15639136043", "9940873244", "4454637318", "0.2848390925017801", "209755853164757", "13412" ]
+, [ "row-zmnq-at7r.hfiu", "00000000-0000-0000-8CD4-806DF2C1A94D", 0, 1752167520, null, 1752167520, null, "{ }", "1993", "16057567749", "9732779950", "4628220257", "0.2882267308066147", "215116323130979", "13397" ]
+, [ "row-xdem~kbg5-94yt", "00000000-0000-0000-9DB0-59BD996CAF99", 0, 1752167520, null, 1752167520, null, "{ }", "1994", "16797312751", "9378125746", "4800722659", "0.285803016837571", "226139381958879", "13463" ]
+, [ "row-zv3a~xmcd.gj34", "00000000-0000-0000-06FA-F3F59AC73430", 0, 1752167520, null, 1752167520, null, "{ }", "1995", "17306221289", "9679169026", "5075831809", "0.2932952101003266", "235711081997358", "13620" ]
+, [ "row-2i28~4n95-fbkk", "00000000-0000-0000-8014-DA7A893E1C9F", 0, 1752167520, null, 1752167520, null, "{ }", "1996", "17802437194", "11840180569", "5275772161", "0.2963511177434799", "245287988982946", "13778" ]
+, [ "row-ys3w-utxx.pdpt", "00000000-0000-0000-71ED-E977D1B8387A", 0, 1752167520, null, 1752167520, null, "{ }", "1997", "18574420148", "11972279094", "5476309150", "0.2948306922296932", "256132373602945", "13790" ]
+, [ "row-7dzf.ze7m_iqir", "00000000-0000-0000-F1A9-DDF896B4177F", 0, 1752167520, null, 1752167520, null, "{ }", "1998", "18169158058", "9283230376", "5570828758", "0.306609075677402", "256692487805899", "14128" ]
+, [ "row-kedw_ksxs~ijqv", "00000000-0000-0000-D095-AFF5D674CE72", 0, 1752167520, null, 1752167520, null, "{ }", "1999", "19746878161", "10502262316", "5939763397", "0.3007950597847414", "276346122975414", "13994" ]
+, [ "row-acy3~xh4f.y84w", "00000000-0000-0000-BED2-21FCA017D834", 0, 1752167520, null, 1752167520, null, "{ }", "2000", "20326158469", "16397723660", "6262543306", "0.3081026508551127", "293389732349512", "14434" ]
+, [ "row-4ywu-fjvb_c3rn", "00000000-0000-0000-E616-ECE8F7283A1E", 0, 1752167520, null, 1752167520, null, "{ }", "2001", "19153830967", "14943581708", "6216558934", "0.3245595591143341", "302802915056021", "15809" ]
+, [ "row-asbz.qz26_qn4n", "00000000-0000-0000-9557-7B5E06579EB5", 0, 1752167520, null, 1752167520, null, "{ }", "2002", "17944111783", "12839692287", "6011726077", "0.3350250014991227", "300251184992154", "16733" ]
+, [ "row-cpsd-s6nv_h2mw", "00000000-0000-0000-B92E-0A1DE0AE56D8", 0, 1752167520, null, 1752167520, null, "{ }", "2003", "18248114859", "15432398758", "6665478979", "0.3652694555302284", "322604580728390", "17679" ]
+, [ "row-ymww-vxww_fmv9", "00000000-0000-0000-41C9-044BA36A7E3A", 0, 1752167520, null, 1752167520, null, "{ }", "2004", "19631390625", "22688221563", "7451421581", "0.3795666707131197", "349630452953472", "17810" ]
+, [ "row-gy5f.5z3i.bccs", "00000000-0000-0000-EABE-79756B7974C3", 0, 1752167520, null, 1752167520, null, "{ }", "2005", "19913728641", "33106360924", "7669067786", "0.3851146073272436", "363046261775747", "18231" ]
+, [ "row-8teh_h45k.zc2d", "00000000-0000-0000-8576-0562EE2C9F78", 0, 1752167520, null, 1752167520, null, "{ }", "2006", "19704071404", "38753833060", "7667220903", "0.3891186113669648", "361069898679062", "18325" ]
+, [ "row-hdst.2mk9-4dmm", "00000000-0000-0000-9B42-2AC9B1EEBBAE", 0, 1752167520, null, 1752167520, null, "{ }", "2007", "19883775121", "41855951630", "7727486075", "0.3886327434290238", "370633549961765", "18640" ]
+, [ "row-hg9k~hpwx.uajp", "00000000-0000-0000-C41C-0776DDC639B6", 0, 1752167520, null, 1752167520, null, "{ }", "2008", "18822371292", "57706345577", "7394577102", "0.3928610793658548", "355698475266774", "18898" ]
+, [ "row-hsxw.tbys-dxt2", "00000000-0000-0000-7C1C-95140BB4D8E7", 0, 1752167520, null, 1752167520, null, "{ }", "2009", "16990973649", "32199268368", "6846059341", "0.4029233098953646", "332222820019160", "19553" ]
+, [ "row-rtku_4qb4_jy2s", "00000000-0000-0000-9B10-433705637717", 0, 1752167520, null, 1752167520, null, "{ }", "2010", "17268304404", "39270388228", "7003668358", "0.4055793895072687", "342425242066537", "19830" ]
+, [ "row-mj85_had2~9erw", "00000000-0000-0000-80BF-7684D61FB2C8", 0, 1752167520, null, 1752167520, null, "{ }", "2011", "17533465241", "53430169356", "7063847517", "0.4028780061389121", "348085812871696", "19853" ]
+, [ "row-38vj.7e5u~jjaz", "00000000-0000-0000-0E73-3E0C75AE7FC1", 0, 1752167520, null, 1752167520, null, "{ }", "2012", "16926952335", "53347199033", "6640131052", "0.3922815472381372", "339847922864403", "20077" ]
+, [ "row-yvf4.ya6a_bk3x", "00000000-0000-0000-D2BC-3D61BF8CC8C2", 0, 1752167520, null, 1752167520, null, "{ }", "2013", "16820232372", "50615185462", "6697161430", "0.3981610528251981", "341244452122378", "20288" ]
+, [ "row-sezx_cty8~jdaw", "00000000-0000-0000-DA00-9AD447622195", 0, 1752167520, null, 1752167520, null, "{ }", "2014", "16774137108", "48017581706", "6818974324", "0.4065171448221836", "352746431741941", "21029" ]
+, [ "row-bv8z~sqg5.t6yk", "00000000-0000-0000-26B1-C48628F930D6", 0, 1752167520, null, 1752167520, null, "{ }", "2015", "17338934894", "32165282188", "7024939456", "0.4051540362165454", "372622669878823", "21491" ]
+, [ "row-4th3-uy5d_h7ac", "00000000-0000-0000-E95F-6493D9A0058E", 0, 1752167520, null, 1752167520, null, "{ }", "2016", "17666037276", "25738072016", "7127726772", "0.4034706063755053", "389540070677796", "22050" ]
+, [ "row-37qf~e8ds~j7qg", "00000000-0000-0000-BB11-03DBBCA0D7C7", 0, 1752167520, null, 1752167520, null, "{ }", "2017", "18028882571", "30630171098", "7084426411", "0.3929487245313535", "407423162021511", "22598" ]
+, [ "row-k6cf.pqj3.ytr3", "00000000-0000-0000-9D47-2736BC40A75E", 0, 1752167520, null, 1752167520, null, "{ }", "2018", "18735633871", "40453288603", "7380574628", "0.3939324753471", "426871255994002", "22784" ]
+, [ "row-abhq-igkg.qwqu", "00000000-0000-0000-5B27-7AAB4B704152", 0, 1752167520, null, 1752167520, null, "{ }", "2019", "19179928283", "38479270333", "7597396387", "0.3961118245543129", "447958849450868", "23356" ]
+, [ "row-zeti.esq4.reb5", "00000000-0000-0000-4EDE-CACC9957BA91", 0, 1752167520, null, 1752167520, null, "{ }", "2020", "11478176287", "16454314543", "4578077097", "0.3988505649791298", "321652081910281", "28023" ]
+, [ "row-2g6k~k24u_4p8z", "00000000-0000-0000-1AB7-A31BE94A3F1A", 0, 1752167520, null, 1752167520, null, "{ }", "2021", "15118867931", "29935000118", "6235744086", "0.4124478178167109", "402515443842472", "26623" ]
+, [ "row-yv45-z3k5_jqgi", "00000000-0000-0000-5E46-11C5D26FBDBE", 0, 1752167520, null, 1752167520, null, "{ }", "2022", "17933373272", "60419558279", "7193703367", "0.4011349821303156", "454220451803299", "25328" ]
+, [ "row-8sgs_98j8.qjmr", "00000000-0000-0000-2C16-32C4A075CBE1", 0, 1752167520, null, 1752167520, null, "{ }", "2023", "19719045637", "56464321564", "7849924225", "0.3980884455315996", "485132557995931", "24602" ]
+, [ "row-kvkh~f7i4-5x7n", "00000000-0000-0000-8CA4-8F154AFFA56A", 0, 1752167520, null, 1752167520, null, "{ }", "2024", "20336209034", "52062045444", "8141052808", "0.4003230294490491", "499172287458743", "24546" ]
+, [ "row-gegn-gvmf-nfz7", "00000000-0000-0000-85AE-C6C7A5CC6E96", 0, 1752167520, null, 1752167520, null, "{ }", "2025M1-3", "4758719808", "11614653509", "1940706618", "0.4078211570131595", "115689906635286", "24311" ]
+ ]
+}

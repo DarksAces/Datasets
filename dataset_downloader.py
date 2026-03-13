@@ -38,11 +38,11 @@ console = Console()
 # ─────────────────────────────────────────────
 #  CONFIGURACIÓN  (toca aquí si quieres ajustar)
 # ─────────────────────────────────────────────
-MAX_PARALLEL    = 100       # descargas simultáneas total (GOD MODE)
+MAX_PARALLEL    = 50        # descargas simultáneas (más estable para Windows)
 MAX_TOPICS_PAR  = 10        # 10 temas procesándose a la vez
-MAX_RETRIES     = 5         # un reintento más por si acaso
+MAX_RETRIES     = 5         # reintentos por descarga
 GITHUB_LIMIT_MB = 99        # Archivos > 99MB -> LARGE_
-MAX_FILE_SIZE_MB = 10000    # Límite local subido a 10GB 
+MAX_FILE_SIZE_MB = 10000    # Límite local 10GB 
 BACKOFF_BASE    = 1.8       # segundos de espera base entre reintentos
 REQUEST_TIMEOUT = 15        # timeout por petición HTTP
 CACHE_TTL_H     = 8         # horas que vive la caché de búsqueda
@@ -372,8 +372,14 @@ async def download_one(session, url, folder, topic, semaphore, registry, queue, 
                         filename = new_filename
                     
                     break
-            except:
-                if attempt < MAX_RETRIES: await asyncio.sleep(BACKOFF_BASE**attempt)
+            except (asyncio.CancelledError, GeneratorExit):
+                raise
+            except Exception:
+                if attempt < MAX_RETRIES:
+                    try:
+                        await asyncio.sleep(BACKOFF_BASE**attempt)
+                    except (RuntimeError, asyncio.CancelledError):
+                        return None
                 else: return None
     info = validate_file(filepath)
     if not info["valid"] or registry.is_duplicate(info["md5"]):
@@ -472,11 +478,15 @@ async def main():
         if not temas: return
 
         sem = asyncio.Semaphore(MAX_TOPICS_PAR)
-        await asyncio.gather(*[run_topic(t, sem, len(temas), i+1) for i, t in enumerate(temas)])
-        console.print("\n[bold green]🏆 ¡FINALIZADO![/bold green]")
+        tasks = [run_topic(t, sem, len(temas), i+1) for i, t in enumerate(temas)]
+        await asyncio.gather(*tasks, return_exceptions=True)
+        console.print("\n[bold green]🏆 ¡FINALIZADO! Todos los datasets procesados.[/bold green]")
     except Exception as e:
-        import traceback
-        console.print(f"[red]{traceback.format_exc()}[/red]")
+        console.print(f"\n[bold red]❌ Error en ejecución principal:[/bold red] {e}")
+    finally:
+        # Asegurar que no quedan tareas colgadas
+        tasks = [t for t in asyncio.all_tasks() if t is not asyncio.current_task()]
+        for t in tasks: t.cancel()
 
 if __name__ == "__main__":
     import sys

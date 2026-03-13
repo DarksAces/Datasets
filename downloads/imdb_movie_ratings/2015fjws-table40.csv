@@ -1,0 +1,121 @@
+,,,,,
+Table 40a,"Training offered and paid for, 2015",,,,
+Size of the company,Training,Proportion of industrial companies that provided or paid for training,Quality indicator,Number of employees that received training,Quality indicator
+,,%,SE,SUM,CV
+All sizes,None,52.7,B,…,
+,Occupational health and safety,37.5,B,"471,292",B
+,New employee orientation,38.2,B,"212,506",A
+,Violence prevention ,15.3,B,"263,223",B
+,Sexual harassment prevention,15.3,B,"226,776",A
+,Diversity and inclusion,13.4,B,"232,568",A
+1 to 5 employees,None,65.9,C,…,
+,Occupational health and safety,25.3,C,"4,776",E
+,New employee orientation,25.4,C,"6,816",F
+,Violence prevention ,12.9,B,"1,859",F
+,Sexual harassment prevention,12.8,B,"1,816",F
+,Diversity and inclusion,13.1,B,"2,367",F
+6 to 19 employees,None,37.8,C,…,
+,Occupational health and safety,51.4,C,"9,700",D
+,New employee orientation,53.3,C,"7,942",D
+,Violence prevention ,11.4,B,"3,011",E
+,Sexual harassment prevention,11.1,B,"3,025",E
+,Diversity and inclusion,7.2,A,"2,198",F
+20 to 99 employees,None,16.0,A,…,
+,Occupational health and safety,69.2,A,"27,975",B
+,New employee orientation,71.7,A,"20,076",B
+,Violence prevention ,24.9,A,"11,549",B
+,Sexual harassment prevention,25.7,A,"11,816",B
+,Diversity and inclusion,14.7,A,"7,921",B
+100 employees and more,None,6.8,A,…,
+,Occupational health and safety,83.6,A,"428,841",B
+,New employee orientation,85.2,A,"177,673",A
+,Violence prevention ,47.4,A,"246,804",B
+,Sexual harassment prevention,47.3,A,"210,119",B
+,Diversity and inclusion,43.7,A,"220,083",A
+,,,,,
+,,,,,
+Table 40b,"Training offered and paid for, 2015",,,,
+Industry,Training,Proportion of industrial companies that provided or paid for training,Quality indicator,Number of employees that received training,Quality indicator
+,,%,SE,SUM,CV
+All industries,None,52.7,B,…,
+,Occupational health and safety,37.5,B,"471,292",B
+,New employee orientation,38.2,B,"212,506",A
+,Violence prevention ,15.3,B,"263,223",B
+,Sexual harassment prevention,15.3,B,"226,776",A
+,Diversity and inclusion,13.4,B,"232,568",A
+Air transportation,None,25.9,A,…,
+,Occupational health and safety,60.7,A,"43,669",D
+,New employee orientation,60.7,A,"32,615",E
+,Violence prevention ,20.4,A,"37,951",D
+,Sexual harassment prevention,20.4,A,"34,958",E
+,Diversity and inclusion,15.9,A,"31,827",E
+Rail transportation,None,X,X,…,
+,Occupational health and safety,80.1,B,"1,993",E
+,New employee orientation,67.7,C,"3,094",D
+,Violence prevention ,48.1,C,"33,031",E
+,Sexual harassment prevention,48.1,C,"21,180",E
+,Diversity and inclusion,29.4,B,"18,491",E
+Road transportion,None,56.7,C,…,
+,Occupational health and safety,34.3,B,"50,701",B
+,New employee orientation,35.1,B,"49,482",B
+,Violence prevention ,14.7,B,"26,443",B
+,Sexual harassment prevention,14.7,B,"28,044",B
+,Diversity and inclusion,13.0,B,"18,429",B
+Maritime transportation,None,38.1,A,…,
+,Occupational health and safety,53.1,A,"5,684",B
+,New employee orientation,46.2,A,"3,750",C
+,Violence prevention ,15.0,A,"3,957",C
+,Sexual harassment prevention,14.9,A,"4,499",C
+,Diversity and inclusion,11.3,A,"3,051",D
+Postal and pipelines,None,50.8,A,…,
+,Occupational health and safety,33.0,A,"79,378",E
+,New employee orientation,41.0,A,"20,964",D
+,Violence prevention ,15.2,A,"48,124",E
+,Sexual harassment prevention,14.6,A,"27,410",E
+,Diversity and inclusion,14.2,A,"29,612",E
+Banks,None,X,X,…,
+,Occupational health and safety,66.1,A,"186,327",A
+,New employee orientation,84.8,A,"77,838",A
+,Violence prevention ,55.7,A,"66,881",A
+,Sexual harassment prevention,53.3,A,"79,519",A
+,Diversity and inclusion,61.5,A,"97,341",A
+"Feed, flour, seed and grain",None,47.2,D,…,
+,Occupational health and safety,48.7,D,"10,701",C
+,New employee orientation,43.0,D,"3,368",C
+,Violence prevention ,18.2,B,"5,918",D
+,Sexual harassment prevention,19.2,B,"5,775",D
+,Diversity and inclusion,14.0,B,"4,516",E
+Telecommunications and broadcasting,None,40.7,A,…,
+,Occupational health and safety,39.8,A,"79,432",D
+,New employee orientation,47.6,A,"17,157",B
+,Violence prevention ,16.9,A,"32,223",C
+,Sexual harassment prevention,16.1,A,"19,314",B
+,Diversity and inclusion,15.6,A,"24,139",B
+Other,None,44.7,D,…,
+,Occupational health and safety,48.0,D,"13,408",C
+,New employee orientation,40.4,D,"4,239",B
+,Violence prevention ,10.2,B,"8,695",D
+,Sexual harassment prevention,9.7,B,"6,077",C
+,Diversity and inclusion,8.2,A,"5,162",D
+,,,,,
+,,,,,
+"Note:
+",,,,,
+Totals and sub-totals have been rounded to the nearest hundredth.,,,,,
+Components may not add up to the totals as a result of the rounding.,,,,,
+,,,,,
+Reliability Indicators,,,,,
+Coefficient of variation (CV),,,Standard error (SE),,
+,,,,,
+A = 0.00% - 5.00%   excellent,,,A = 0.00% - 2.50%   excellent,,
+B = 5.01% - 10.00%    very Good,,,B = 2.51% - 5.00%    very Good,,
+C = 10.01% - 15.00%  good,,,C = 5.01% - 7.50%  good,,
+D = 15.01% - 20.00%  acceptable,,,D = 7.51% - 10.00%  acceptable,,
+E = 20.01 - 25.00%  use with caution,,,E = 10.01% - 12.50%  use with caution,,
+F = Greater than 25.00%   too unreliable to be published,,,F = 12.51% or more  too unreliable to be published,,
+,,,,,
+Symbols:                      ,,,,,
+ … not applicable,,,,,
+x  suppressed to meet the confidentiality requirements of the Statistics Act ,,,,,
+,,,,,
+Source:  ,"Federal Jurisdiction Workplace Survey, 2015",,,,

@@ -1,0 +1,25 @@
+"Regional average fine particulate matter concentrations, Canada, 2009 to 2023",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,Atlantic Canada,Atlantic Canada,Atlantic Canada,Southern Quebec,Southern Quebec,Southern Quebec,Southern Ontario,Southern Ontario,Southern Ontario,Prairies and northern Ontario ,Prairies and northern Ontario ,Prairies and northern Ontario ,British Columbia,British Columbia,British Columbia,Northern Territories,Northern Territories,Northern Territories
+Year,Average concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre),Average concentration (micrograms per cubic metre),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre)
+2009 ,6,3.7,7.9,7.8,4,12.4,5.5,3.8,6.7,4.7,3.3,6.8,5.5,3.9,6.7,4.9,4.3,5.5
+2010 ,5.6,3.9,7.2,7.9,4.7,11.4,5.9,4,7.7,7.5,4.4,14.5,5.8,3.7,9.2,3.4,1.9,4.9
+2011 ,6.1,5,8.5,7.7,4,10.5,6,4.2,7.7,6.6,3.6,10.4,5,3.3,8,4.4,2.5,6.2
+2012 ,5.6,3.9,6.9,7.7,3.9,10,6,4.1,7.4,6.4,4.1,9.4,5.2,3.3,8,5.1,3.5,6.2
+2013 ,6.1,4.5,7.3,7.5,4.6,10.1,7.8,5.6,9.4,6.4,4,8.2,6.6,3.9,8.9,5.4,3.5,6.4
+2014 ,6.2,5.2,8.1,7.2,4.9,9.5,8.1,5.8,9.9,6.9,4.6,9,6.6,4.6,9,9.8,3.7,15.8
+2015 ,6,5.5,7.4,7.1,5,9.1,7.8,5.7,9.4,7.2,4.9,9.4,7.2,5,9.3,6.2,4.6,8.5
+2016 ,5.6,4.5,6.7,6.3,4.4,8.4,6.5,4.8,8.1,6.8,4.4,9.5,5.5,3.8,7.8,4.6,2.6,7.8
+2017 ,5.6,4.5,6.8,6.5,4.3,8.5,6.4,4.6,7.8,6.8,5.1,8.8,8.3,5.8,11.8,4,3.2,4.5
+2018 ,5.1,4.3,5.8,6.5,4.3,8.8,6.8,5.4,8.2,8.8,6.5,11.6,8.8,5.4,13.8,3.5,2.9,4.3
+2019 ,5,4.4,5.5,6.2,4.5,7.7,6.5,4.5,7.8,6.2,4.6,7.8,6.3,4.5,8.6,4.4,4.3,4.4
+2020 ,5.1,4,5.7,6.3,4.5,7.6,6.2,4.5,7.4,5.2,4,6.7,6.9,5.7,8.2,4.7,4,5.6
+2021 ,5.1,4.2,5.8,6.8,5.1,8.5,6.9,5.4,8.3,7.3,5.4,9.1,6.6,4.4,11.5,5.2,4.5,6.6
+2022 ,5.1,3.8,5.7,6.3,4.5,7.8,6.4,4.7,7.7,6.3,5,7.8,6.7,5,8.8,5.6,5.1,6
+2023 ,5.4,4.4,6.2,8.3,6.7,10.1,8.8,7.6,10.1,16.1,9.1,23.3,7,4.3,12.1,15.7,5.6,25.7
+2020 standard ,8.8,n/a,n/a,8.8,n/a,n/a,8.8,n/a,n/a,8.8,n/a,n/a,8.8,n/a,n/a,8.8,n/a,n/a
+Annual trend ,-0.07,n/a,n/a,-0.12,n/a,n/a,No trend ,n/a,n/a,No trend ,n/a,n/a,0.15,n/a,n/a,No trend,n/a,n/a
+,,,,,,,,,,,,,,,,,,
+"Note: n/a = not applicable. The regional average PM2.5 concentration indicator is based on the annual average of the daily 24-hour average concentrations recorded at 16 monitoring stations in the Atlantic Canada region, 35 in the southern Quebec region, 37 in the southern Ontario region, 35 in the Prairies and northern Ontario region, 35 in British Columbia and 3 in the northern terrirories region. The comparison to the Canadian Ambient Air Quality Standard is provided for illustrative purposes only. A statistically significant trend is reported when the Mann-Kendall test indicates the presence of a trend at the 95% confidence level. For more information, consult the Methods section (www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#Methods).",,,,,,,,,,,,,,,,,,
+Source: Environment and Climate Change Canada (2025) National Air Pollution Surveillance (NAPS) Program - Open Government Portal  (https://open.canada.ca/data/en/dataset/1b36a356-defd-4813-acea-47bc3abd859b).,,,,,,,,,,,,,,,,,,
+Available on the Environmental indicators website (www.canada.ca/environmental-indicators).,,,,,,,,,,,,,,,,,,

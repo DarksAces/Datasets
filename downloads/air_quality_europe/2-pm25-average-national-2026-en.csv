@@ -1,0 +1,24 @@
+"National average fine particulate matter concentrations, Canada, 2009 to 2023",,,
+,,,
+Year,Average concentration (micrograms per cubic meter),10th percentile (micrograms per cubic metre),90th percentile (micrograms per cubic metre)
+2009,5.9,3.8,9.4
+2010,6.6,3.8,10.8
+2011,6.3,3.6,9.6
+2012,6.3,3.9,9.4
+2013,7,4.4,9.3
+2014,7.1,4.9,9.5
+2015,7.2,5,9.3
+2016,6.2,4.3,8.1
+2017,6.8,4.6,8.8
+2018,7.4,4.9,10.6
+2019,6.2,4.5,7.8
+2020,6,4.3,7.6
+2021,6.7,4.6,8.5
+2022,6.3,4.7,8
+2023,9.5,5.1,16.3
+2020 standard,8.8,n/a,n/a
+Annual trend,No trend ,n/a,n/a
+,,,
+"Note: n/a = not applicable. The national average PM2.5 concentration indicator is based on the annual average of the daily 24-hour average concentrations recorded at 161 monitoring stations across Canada. The comparison to the Canadian Ambient Air Quality Standard is provided for illustrative purposes only. A statistically significant trend is reported when the Mann-Kendall test indicates the presence of a trend at the 95% confidence level. For more information, consult the Methods section. (www.canada.ca/en/environment-climate-change/services/environmental-indicators/air-quality.html#Methods).",,,
+Source: Environment and Climate Change Canada (2025) National Air Pollution Surveillance (NAPS) Program - Open Government Portal (https://open.canada.ca/data/en/dataset/1b36a356-defd-4813-acea-47bc3abd859b).,,,
+Available on the Environmental indicators website (www.canada.ca/environmental-indicators).,,,

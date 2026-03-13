@@ -1,0 +1,53 @@
+,,,,,,
+Table 31a,"Paid annual vacation leave as per Canada Labour Code, 2015",,,,,
+Size of the company,"Number of industrial companies provided more days of paid annual vacation leave than stipulated in the Canada Labour Code
+",,Proportion of Industrial companies provided ,,,
+,,,"A set number of days per year
+",Quality indicator,"No set number of days per year
+",Quality indicator
+,SUM,CV,%,SE,%,SE
+All sizes,"5,296",C,38.1,B,61.9,B
+1 to 5 employees,"2,808",E,13.2,C,86.8,C
+6 to 19 employees,"1,045",C,49.2,C,50.8,C
+20 to 99 employees,849,A,72.7,A,27.3,A
+100 employees and more,595,A,87.2,A,12.8,A
+,,,,,,
+,,,,,,
+Table 31b,"Paid annual vacation leave as per Canada Labour Code, 2015",,,,,
+Industry,Number of industrial companies provided more days of paid annual vacation leave than stipulated in the Canada Labour Code,,Proportion of Industrial companies provided,,,
+,,,"A set number of days per year
+",Quality indicator,"No set number of days per year
+",Quality indicator
+,SUM,CV,%,SE,%,SE
+All industries,"5,296",C,38.1,B,61.9,B
+Air transportation,468,A,59.2,A,40.8,A
+Rail transportation,15,C,X,X,X,X
+Road transportion,"3,397",D,21.8,C,78.2,C
+Maritime transportation,212,A,70.7,A,29.3,A
+Postal and pipelines,136,B,58.0,B,42.0,B
+Banks,80,A,83.9,A,16.1,A
+"Feed, flour, seed and grain",215,F,X,X,X,X
+Telecommunications and broadcasting,526,A,76.0,A,24.0,A
+Other,248,D,59.3,E,40.7,E
+,,,,,,
+,,,,,,
+"Note:
+",,,,,,
+Totals and sub-totals have been rounded to the nearest hundredth.,,,,,,
+Components may not add up to the totals as a result of the rounding.,,,,,,
+,,,,,,
+Reliability Indicators,,,,,,
+Coefficient of variation (CV),,,Standard error (SE),,,
+,,,,,,
+A = 0.00% - 5.00%   excellent,,,A = 0.00% - 2.50%   excellent,,,
+B = 5.01% - 10.00%    very Good,,,B = 2.51% - 5.00%    very Good,,,
+C = 10.01% - 15.00%  good,,,C = 5.01% - 7.50%  good,,,
+D = 15.01% - 20.00%  acceptable,,,D = 7.51% - 10.00%  acceptable,,,
+E = 20.01 - 25.00%  use with caution,,,E = 10.01% - 12.50%  use with caution,,,
+F = Greater than 25.00%   too unreliable to be published,,,F = 12.51% or more  too unreliable to be published,,,
+,,,,,,
+Symbols:                      ,,,,,,
+ … not applicable,,,,,,
+x  suppressed to meet the confidentiality requirements of the Statistics Act ,,,,,,
+,,,,,,
+Source:  ,"Federal Jurisdiction Workplace Survey, 2015",,,,,
