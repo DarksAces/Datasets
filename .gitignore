@@ -1,0 +1,14 @@
+# Ignorar la metadata y caché local
+.metadata/
+.hashes.json
+
+# Ignorar archivos del sistema y Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# --- Estrategia Híbrida para Datasets ---
+# Permitimos la carpeta downloads para compartir datasets pequeños
+# Pero ignoramos cualquier archivo que el script haya marcado como "LARGE_" (>99MB)
+**/LARGE_*

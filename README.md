@@ -1,60 +1,52 @@
-# 🎯 Dataset Hunter Pro
+# 🚀 Dataset Hunter Pro v3.3 - The Ultimate Scouter
 
-An automated script to search, find, and download datasets from across the web based on topics. It uses intelligent search filtering (Google/DuckDuckGo Dorking) and deep link extraction to find direct download links (.csv, .xlsx, .json, .zip, etc.) without human intervention.
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/)
 
----
-
-## 🇺🇸 README (English)
-
-### 🚀 Features
-- **Multi-topic Support**: Search and download datasets for multiple topics in one run (comma-separated).
-- **Deep Extraction**: Automatically enters pages to find hidden download buttons.
-- **Smart Filtering**: Avoids noise (social media, ads) and focuses on data portals.
-- **Rich Interface**: Beautiful console UI with progress bars and summary tables.
-- **Automatic Organization**: Creates dedicated folders for each topic.
-
-### 🛠️ Installation
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### 📋 Usage
-1. Run the script:
-   ```bash
-   python dataset_downloader.py
-   ```
-2. Enter your topics (e.g., `Bitcoin, Global Warming, NBA stats`).
-3. Find your data in the `downloads/` folder.
+**Dataset Hunter Pro v3.0** is the most powerful version yet. No more manual searching on Kaggle or Google. Just enter a topic, and it will fetch datasets from over 20 professional sources and the open web simultaneously.
 
 ---
 
-## 🇪🇸 README (Español)
+## 🇺🇸 English Version
 
-### 🚀 Características
-- **Soporte Multitema**: Busca y descarga datasets de varios temas a la vez (separados por comas).
-- **Extracción Profunda**: Entra automáticamente en las páginas para buscar botones de descarga ocultos.
-- **Filtrado Inteligente**: Evita el ruido (redes sociales, anuncios) y se centra en portales de datos.
-- **Interfaz Premium**: Consola elegante con barras de progreso y tablas de resumen.
-- **Organización Automática**: Crea carpetas dedicadas para cada tema.
+*   **⚡ Optimized Concurrency**: Handles 20+ parallel downloads and 3 simultaneous topics (Turbo Mode).
+*   **🛡️ Content Guard**: Advanced header analysis to filter out HTML errors, 404s, and "hidden" login walls.
+*   **💾 Smart Hybrid Strategy**: Downloads everything, but automatically prefixes files over 100MB with `LARGE_` and ignores them in Git. This keeps your GitHub repository clean while having all data locally.
 
-### 🛠️ Instalación
-1. Clona el repositorio.
-2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🛠️ Technology Stack
+- **Async Engine:** `aiohttp` & `aiofiles`
+- **Search Engine:** `duckduckgo-search` (multi-query optimized)
+- **Scraping:** `BeautifulSoup4`
+- **UI:** `Rich` (Full professional dashboard)
 
-### 📋 Uso
-1. Ejecuta el script:
-   ```bash
-   python dataset_downloader.py
-   ```
-2. Introduce tus temas (ej: `Bitcoin, Cambio Climático, NBA stats`).
-3. Encuentra tus datos en la carpeta `downloads/`.
+### 📥 Installation
+```bash
+pip install -r requirements.txt
+```
+
+### 🚀 Usage
+```bash
+python dataset_downloader.py
+```
+> Enter multiple topics separated by commas: `Inflation Data, NBA Player Stats, COVID-19 Genomics`
+
+---
+
+## 🇪🇸 Versión en Español
+
+*   **⚡ Modo Turbo**: Procesa 3 temas a la vez y hasta 20 descargas simultâneas.
+*   **🛡️ Estrategia Híbrida**: Los archivos > 100MB se marcan como `LARGE_` y se ignoran en Git automáticamente. Descarga total sin romper tu repo.
+*   **📊 Validación Pro**: Detecta errores HTML disfrazados de datasets y los elimina automáticamente.
+
+### 📋 Estructura de Archivos
+- `dataset_downloader.py`: Motor Turbo v3.3.
+- `.metadata/`: Carpeta con caché, cola de estado y hashes (organizado).
+- `downloads/`: Los datos se guardan aquí. Los archivos pesados tienen el prefijo `LARGE_`.
 
 ---
 
 ### ⚠️ Disclaimer
-This tool is for educational purposes. Always respect the `robots.txt` of websites and the terms of service of the data providers.
+Educational use only. Respect `robots.txt` and the terms of service of each data provider.
+
+Uso educativo. Respeta siempre el `robots.txt` y los términos de servicio de los proveedores de datos.

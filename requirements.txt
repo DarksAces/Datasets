@@ -1,4 +1,5 @@
-googlesearch-python
-requests
-rich
+aiohttp
+aiofiles
+duckduckgo-search
 beautifulsoup4
+rich
