@@ -278,14 +278,20 @@ async def src_socrata(s, t):
 
 async def src_github_search(s, t):
     urls = []
-    try:
-        r = await s.get(f"https://api.github.com/search/code?q={quote_plus(t)}+extension:csv&per_page=15", timeout=10, headers={"Accept": "application/vnd.github+json", "User-Agent": "DatasetHunter/3.1"})
-        if r.status == 200:
-            data = await r.json()
-            for item in data.get("items", []):
-                raw = item.get("html_url", "").replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
-                if raw: urls.append(raw)
-    except: pass
+    # Buscamos los formatos más comunes en GitHub
+    for ext in ["csv", "json", "parquet", "xlsx"]:
+        try:
+            query = f"{quote_plus(t)}+extension:{ext}"
+            r = await s.get(f"https://api.github.com/search/code?q={query}&per_page=10", 
+                            timeout=10, 
+                            headers={"Accept": "application/vnd.github+json", "User-Agent": "DatasetHunter/3.9"})
+            if r.status == 200:
+                data = await r.json()
+                for item in data.get("items", []):
+                    raw = item.get("html_url", "").replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+                    if raw: urls.append(raw)
+            if r.status == 403: break # Límite de API de GitHub alcanzado, paramos
+        except: pass
     return urls
 
 # ─────────────────────────────────────────────
@@ -474,7 +480,7 @@ async def run_topic(tema, sem, total, idx):
 
 async def main():
     console.clear()
-    console.print(Panel("[bold magenta]DATASET HUNTER PRO v3.7 GOD MODE[/bold magenta]\n[dim]Ultra-Paralelismo · 100 Hilos · Soporte CLI[/dim]", box=box.DOUBLE_EDGE))
+    console.print(Panel("[bold magenta]DATASET HUNTER PRO v3.9 STABLE[/bold magenta]\n[dim]Ultra-Paralelismo · GitHub Deep Scraper · < 99MB[/dim]", box=box.DOUBLE_EDGE))
     
     try:
         import sys
