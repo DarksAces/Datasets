@@ -38,11 +38,11 @@ console = Console()
 # ─────────────────────────────────────────────
 #  CONFIGURACIÓN  (toca aquí si quieres ajustar)
 # ─────────────────────────────────────────────
-MAX_PARALLEL    = 50        # descargas simultáneas (más estable para Windows)
+MAX_PARALLEL    = 50        # descargas simultáneas (estable)
 MAX_TOPICS_PAR  = 10        # 10 temas procesándose a la vez
 MAX_RETRIES     = 5         # reintentos por descarga
-GITHUB_LIMIT_MB = 99        # Archivos > 99MB -> LARGE_
-MAX_FILE_SIZE_MB = 10000    # Límite local 10GB 
+GITHUB_LIMIT_MB = 100       # No usado ahora, pero mantenemos por compatibilidad
+MAX_FILE_SIZE_MB = 99       # LÍMITE ESTRICTO: Solo bajamos lo que cabe en GitHub (99MB)
 BACKOFF_BASE    = 1.8       # segundos de espera base entre reintentos
 REQUEST_TIMEOUT = 15        # timeout por petición HTTP
 CACHE_TTL_H     = 8         # horas que vive la caché de búsqueda
@@ -87,7 +87,22 @@ def _load_json(path: Path) -> dict:
 
 def _save_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    content = json.dumps(data, ensure_ascii=False, indent=2)
+    
+    # Si el archivo va a superar el límite de GitHub, limpiamos para salvar el repo
+    if len(content.encode("utf-8")) > MAX_FILE_SIZE_MB * 1024 * 1024:
+        if path == CACHE_FILE:
+            # Purgar el 50% de las entradas más viejas si la caché se hace gigante
+            keys = sorted(data.keys(), key=lambda x: data[x].get("ts", 0))
+            for k in keys[:len(keys)//2]: del data[k]
+            content = json.dumps(data, ensure_ascii=False, indent=2)
+        elif path == QUEUE_FILE:
+            # Si la cola es gigante, reiniciamos el progreso (caso extremo)
+            data = {}
+            content = "{}"
+            console.print(f"[bold red]⚠️  {path.name} superaba los 100MB. Se ha reiniciado para proteger el repo.[/bold red]")
+
+    path.write_text(content, encoding="utf-8")
 
 def cache_get(key: str) -> list | None:
     c = _load_json(CACHE_FILE)
@@ -346,12 +361,8 @@ async def download_one(session, url, folder, topic, semaphore, registry, queue, 
                     if r.status != 200: continue
                     total = int(r.headers.get("content-length", 0))
                     
-                    # Estrategia Híbrida: si es > 99MB, le ponemos un prefijo para que Git lo ignore
-                    if total > GITHUB_LIMIT_MB * 1024 * 1024:
-                        filename = f"LARGE_{filename}"
-                        filepath = folder / filename
-                    
                     if total > MAX_FILE_SIZE_MB * 1024 * 1024:
+                        console.print(f"[dim blue]   ↪ Saltado: {filename[:20]}... ({total//1024//1024}MB)[/dim blue]")
                         return None
                         
                     task = progress.add_task(f"[white]↓ {filename[:25]}", total=total or None)
