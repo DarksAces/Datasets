@@ -13,3 +13,7 @@ __pycache__/
 # Pero ignoramos cualquier archivo que contenga "LARGE_" (archivos >99MB)
 **/LARGE_*
 **/*LARGE_*
+
+# Ignorar archivos genéricos que pueden dar problemas de tamaño o colisiones
+**/rows.json
+**/rows.csv
